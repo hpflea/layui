@@ -62,7 +62,8 @@ html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 .layui-laydate-content th{font-weight: 400;}
 .layui-laydate-content td{position: relative; cursor: pointer;}
 .laydate-day-mark{position: absolute; left: 0; top: 0; width: 100%; height: 100%; line-height: 30px; font-size: 12px; overflow: hidden;}
-.laydate-day-background{position: absolute; left: 0; top: 0; width: 100%; height: 100%; line-height: 30px; font-size: 12px; overflow: hidden;}
+.laydate-day-background{position: absolute; left: 0; top: 0; width: 100%; height: 100%; line-height: 30px; font-size: 14px; overflow: hidden;}
+.laydate-today span {}
 .laydate-day-mark::after{position: absolute; content:''; right: 2px; top: 2px; width: 5px; height: 5px; border-radius: 50%;}
 
 /* 底部结构 */

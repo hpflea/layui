@@ -1043,6 +1043,10 @@
       }
       YMD[1]++;
       YMD[2] = st + 1;
+      var today = new Date();
+      if (today.getFullYear() === YMD[0] && today.getMonth()+1 === YMD[1] && today.getDate() === YMD[2]) {
+        item.addClass('laydate-today');
+      }
       item.attr('lay-ymd', YMD.join('-')).html(YMD[2]);
       that.mark(item, YMD).limit(item, {
         year: YMD[0]
@@ -1445,6 +1449,7 @@
         ,date: ymd[2]
       }).getTime();
       lay(item).removeClass(ELEM_SELECTED + ' ' + THIS);
+
       if(thisTime === startTime || thisTime === endTime){
         lay(item).addClass(
           lay(item).hasClass(ELEM_PREV) || lay(item).hasClass(ELEM_NEXT)
