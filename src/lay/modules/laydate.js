@@ -639,7 +639,7 @@
         'class': 'layui-laydate-content'
       })
       ,table = lay.elem('table')
-      ,thead = lay.elem('thead'), theadTr = lay.elem('tr').elem('span');
+      ,thead = lay.elem('thead'), theadTr = lay.elem('tr');
       
       //生成年月选择
       lay.each(headerChild, function(i, item){
@@ -959,7 +959,8 @@
         mark = title || YMD[2];
       }
     });
-    mark && td.html('<span class="laydate-day-mark">'+ mark +'</span>');
+    mark && td.html('<span class="laydate-day-mark">'+ mark +'</span>')
+         || td.html('<span class="laydate-day-background">'+ YMD[2] +'</span>');
     
     return that;
   };
