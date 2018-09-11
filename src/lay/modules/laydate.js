@@ -639,7 +639,7 @@
         'class': 'layui-laydate-content'
       })
       ,table = lay.elem('table')
-      ,thead = lay.elem('thead'), theadTr = lay.elem('tr');
+      ,thead = lay.elem('thead'), theadTr = lay.elem('tr').elem('span');
       
       //生成年月选择
       lay.each(headerChild, function(i, item){
