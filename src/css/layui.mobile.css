@@ -33,11 +33,11 @@ label,input{vertical-align: middle;}
 
 /** 图标字体 **/
 @font-face {font-family: 'layui-icon';
-  src: url('../font/iconfont.eot?v=1.0.7');
-  src: url('../font/iconfont.eot?v=1.0.7#iefix') format('embedded-opentype'),
-  url('../font/iconfont.woff?v=1.0.7') format('woff'),
-  url('../font/iconfont.ttf?v=1.0.7') format('truetype'),
-  url('../font/iconfont.svg?v=1.0.7#iconfont') format('svg');
+  src: url('../fonts/iconfont.eot?v=1.0.7');
+  src: url('../fonts/iconfont.eot?v=1.0.7#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff?v=1.0.7') format('woff'),
+  url('../fonts/iconfont.ttf?v=1.0.7') format('truetype'),
+  url('../fonts/iconfont.svg?v=1.0.7#iconfont') format('svg');
 }
                     
 .layui-icon{
